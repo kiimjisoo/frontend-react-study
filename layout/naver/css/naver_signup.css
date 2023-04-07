@@ -1,0 +1,61 @@
+/* 공통 스타일 */
+* {
+  box-sizing: border-box;
+  outline: none;
+}
+
+body {
+  font-family: Dotum, 돋움, Helvetica, sans-serif;
+  background-color: #f5f6f7;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+/* 헤더 영역 */
+header {
+  width: 100%;
+  background-color: orange;
+}
+header .top {
+  max-width: 768px;
+  height: 124px;
+  margin: 0 auto;
+  background-color: beige;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* 메인 영역 */
+#container {
+  max-width: 768px;
+  background-color: royalblue;
+  margin: 0 auto;
+  height: 996px;
+}
+#container .section-input {
+  width: 460px;
+  margin: 0 auto;
+  background-color: coral;
+}
+
+/* 푸터 영역 */
+footer {
+  width: 100%;
+  background-color: cadetblue;
+}
+footer .bottom {
+  max-width: 768px;
+  height: 83px;
+  margin: 0 auto;
+  background-color: burlywood;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
