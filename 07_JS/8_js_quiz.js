@@ -1,7 +1,7 @@
 // Q1 
 // The quick brown fox 
 // 위 문장을 camelCase(낙타 표기법)로 작성하시오!
-
+// The quick brown fox
 
 
 // Q2 
