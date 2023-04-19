@@ -50,8 +50,14 @@
     .col-12 { flex: 12; } */
 
     /* 모바일 */
-    @media screen {
-      
+    @media screen and (max-width: 768px) {
+      .row {
+        flex-direction: column;
+      }
+
+      [class*="col-"] {
+        width: 100%;
+      }
     }
   </style>
 </head>
